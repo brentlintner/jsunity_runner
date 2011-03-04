@@ -1,0 +1,6 @@
+[submodule "packages/nodejs-termcolors"]
+	path = packages/nodejs-termcolors
+	url = git://github.com/davglass/nodejs-termcolors.git
+[submodule "packages/browser-require"]
+	path = packages/browser-require
+	url = git://github.com/rsms/browser-require.git

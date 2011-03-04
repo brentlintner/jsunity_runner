@@ -1,0 +1,29 @@
+{
+  "name": "jsunity_runner",
+  "version": "0.1.0",
+  "description": "a cli and nodejs runner for jsunity",
+  "homepage": "http://github.com/tinyhippos/jsunity_runner",
+  "author": {
+    "name": "tinyHippos Inc"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  }],
+  "bin": "./bin/jsunity",
+  "main": "./lib/runner",
+  "files": [
+    "thirdparty/browser-require/README.md",
+    "thirdparty/browser-require/require.js",
+    "thirdparty/nodejs-termcolors/LICENSE",
+    "thirdparty/nodejs-termcolors/README.textile",
+    "thirdparty/nodejs-termcolors/lib/termcolors.js",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "HELP"
+  ],
+  "dependencies": {
+    "argsparser": ">=0.0.3"
+  }
+}
